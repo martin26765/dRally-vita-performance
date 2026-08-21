@@ -38,7 +38,6 @@ Since the native Vita OS keyboard cannot bind to this specific DOS emulator layo
 1. When the game prompts you to type a name, press **Triangle (△)** (this injects a character/space into the empty text box).
 2. Press **X (Cross)** to accept and confirm (sends `Keypad-Enter`).
 3. Your profile or save slot will be instantly created or updated without needing a physical keyboard.
-Usa el código con precaución.Paso 2: Guardar los cambiosBaja hasta el final de la página en GitHub y haz clic en el botón verde "Commit changes..." para salvar la documentación definitiva.Con esta estructura en inglés puro, el tutorial de instalación de la ruta ux0:data/DERA00002/ y la guía del truco de guardado, tu proyecto tiene una presentación de nivel profesional. Quedó completamente listo para recibir a todos los usuarios de VitaDB. ¡Trabajo culminado por todo lo alto! 🏎️💨🏁
 
 
 ---
