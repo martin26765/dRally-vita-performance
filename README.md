@@ -3,8 +3,8 @@ An optimized performance and control fork of **Death Rally** for the PlayStation
 
 ## 👥 Credits & Acknowledgments
 This project is a performance-focused fork and would not be possible without the incredible work of the original developers:
-* **Original PS Vita Port:** Developed by **Enrique Somolinos** ([@enriquesomolinos](https://github.com)). Check out the original repository here: [enriquesomolinos/dRally-vita](https://github.com/dRally-vita).
-* **Open Source Engine:** Based on the source code reconstruction by **urxp** ([urxp/dRally](https://github.com)).
+* **Original PS Vita Port:** Developed by **Enrique Somolinos** ([@enriquesomolinos](https://github.com/enriquesomolinos/dRally-vita))).
+* **Open Source Engine:** Based on the source code reconstruction by **urxp** ([/dRally](https://github.com/urxp/dRally).
 
 ---
 
