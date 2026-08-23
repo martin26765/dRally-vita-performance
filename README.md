@@ -46,14 +46,8 @@ Since the native Vita OS keyboard cannot bind to this specific DOS emulator layo
 This VPK does not contain any copyrighted game assets (graphics, music, or levels). To play, you must provide the original MS-DOS game files legally. 
 
 **Steam Version Compatibility:**
-The files from the official **Steam version** of *Death Rally* (Classic) work perfectly. 
+i'm working on making them work, for now use the original dos files.
 
-### How to install game assets:
-1. Purchase and download *Death Rally* on Steam.
-2. Go to the game's installation folder on your PC.
-3. Copy all the **`.BPA`** extension files and the **`IBOUNDS.DAT`** file.
-4. Transfer them to your PS Vita and place them inside:  
-   `ux0:data/DERA00002/` (alongside your custom `dr.cfg`).
 
 
 
