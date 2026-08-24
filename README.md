@@ -15,7 +15,8 @@ Extract it and copy the data folder directly into the root of your ux0: partitio
 
 This automatically creates the path ux0:data/DERA00002/DATA/ with the pre-configured cdrom.ini.
 
-Step 3: Copy Steam Game Files
+Step 3: 
+
 Open your Death Rally installation folder on your PC (via Steam).
 
 Copy all the game files from your PC.
