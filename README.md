@@ -6,9 +6,11 @@
 🎮 Installation Guide
 
 Step 1: Install the Game App
+
 Download and install the .vpk file on your PlayStation Vita using VitaShell.
 
 Step 2: Prepare the Data Files
+
 Download death rally data template.zip from the Releases section.
 
 Extract it and copy the data folder directly into the root of your ux0: partition.
@@ -23,7 +25,8 @@ Copy all the game files from your PC.
 
 Paste them directly inside ux0:data/DERA00002/DATA/ on your Vita.
 
-Step 4: Move the Cinematic Files
+Step 4:
+
 Inside the DATA folder on your Vita, locate the 3 files ending in .HAF.
 Move those 3 .HAF files into the CINEM folder.
 ````
