@@ -1,38 +1,33 @@
 # dRally Vita 
 
-* Base on work of urpx : https://github.com/urxp/dRally
+* Based on work of urpx : https://github.com/urxp/dRally
+* Based on EnriqueSomolinos port for psvita : https://github.com/enriquesomolinos/dRally-vita
 
-# Instalation for PSVITA
+🎮 Installation Guide
 
-* Install the vpk file under releases
-* Copy all the original game assets under ux0:data/DERA00002/DATA
-* Copy the DR.CFG file under ux0:data/DERA00002/DATA
+Step 1: Install the Game App
+Download and install the .vpk file on your PlayStation Vita using VitaShell.
 
-# Controls
+Step 2: Prepare the Data Files
+Download death rally data template.zip from the Releases section.
 
-* Left joystick: turn left and right
-* Triangle: drop mine
-* Circle
-* Square: brake
-* Cross: accept on the menus and acelerate in race
-* Select: is similar thant ESC in the original game
-* R1: turbo
-* L1: minigun
+Extract it and copy the data folder directly into the root of your ux0: partition.
 
-# dRally
+This automatically creates the path ux0:data/DERA00002/DATA/ with the pre-configured cdrom.ini.
 
-The main goal of this project is to create a port of Death Rally (1996) running natively on Linux and BSD based operating systems.
+Step 3: Copy Steam Game Files
+Open your Death Rally installation folder on your PC (via Steam).
 
-#### Linux requirements
-* GCC/Clang C compiler
-* GNU/Make
-* SDL2
+Copy all the game files from your PC.
 
-#### You need original game assets
+Paste them directly inside ux0:data/DERA00002/DATA/ on your Vita.
 
-    dRally
-    |--CINEM
-    |  |--DR.IDF
+Step 4: Move the Cinematic Files
+Inside the DATA folder on your Vita, locate the 3 files ending in .HAF.
+Move those 3 .HAF files into the CINEM folder.
+````
+Ux0:data/DERA00002/DATA
+    |--/CINEM
     |  |--ENDANI.HAF
     |  |--ENDANI0.HAF
     |  |--SANIM.HAF
@@ -43,9 +38,15 @@ The main goal of this project is to create a port of Death Rally (1996) running 
     |--MUSICS.BPA
     |--TR[0-9].BPA
 
-    Make sure these file/dir names in dRally directory are in uppercase.
-
-    [1] CDROM.INI contains relative location of CINEM directory (./CINEM)
-
-#### Work in progress
-*   Multiplayer not available 
+	[1] CDROM.INI contains relative location of CINEM directory (./CINEM)
+`````
+🎮 Native Control Layout
+Once the custom dr.cfg is placed in the data folder, the handheld controls will map as follows:
+````
+D-Pad: Smooth and continuous steering (fixed the legacy tap-steering bug).
+R Trigger: Accelerate.
+L Trigger: Brake / Reverse.
+X (Cross): Nitro / Turbo (Also acts as Keypad-Enter for general menu navigation).
+Square (□): Shoot main weapons.
+Circle (○): Drop mines.
+Triangle (△): Horn / Native Exit Shortcut (Sends 'Y' key to instantly quit races in the pause overlay).
